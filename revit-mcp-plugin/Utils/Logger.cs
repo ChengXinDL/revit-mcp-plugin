@@ -24,9 +24,11 @@ namespace revit_mcp_plugin.Utils
             string logEntry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} [{level}] {formattedMessage}";
 
             // 输出到 Debug 窗口
+            // Output to debug window.
             System.Diagnostics.Debug.WriteLine(logEntry);
 
             // 写入日志文件
+            // Write to the logfile.
             try
             {
                 File.AppendAllText(_logFilePath, logEntry + Environment.NewLine);
@@ -34,6 +36,7 @@ namespace revit_mcp_plugin.Utils
             catch
             {
                 // 如果写入日志文件失败，不抛出异常
+                // If writing to the logfile fails, do not throw an exception.
             }
         }
 

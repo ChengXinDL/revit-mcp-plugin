@@ -1,49 +1,60 @@
 ﻿using Newtonsoft.Json;
+using RevitMCPSDK.API.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace revit_mcp_plugin.Configuration
 {
     /// <summary>
-    /// 命令配置类
+    /// <para>命令配置类</para>
+    /// <para>Command configuration class.</para>
     /// </summary>
     public class CommandConfig
     {
         /// <summary>
-        /// 命令名称 - 对应IRevitCommand.CommandName
+        /// <para>命令唯一标识（全局唯一，用于工具注册和调用）</para>
+        /// <para>Unique command ID (globally unique, used for tool registration and invocation)</para>
+        /// </summary>
+        [JsonProperty("commandId")]  // 对应配置文件中的commandId字段
+        public string CommandId { get; set; } = Guid.NewGuid().ToString();  // 默认为新GUID
+
+        /// <summary>
+        /// <para>命令名称 - 对应IRevitCommand.CommandName</para>
+        /// <para>Name of the command. Corresponds to <see cref="IRevitCommand.CommandName"/></para>
         /// </summary>
         [JsonProperty("commandName")]
         public string CommandName { get; set; }
 
         /// <summary>
-        /// 程序集路径 - 包含此命令的DLL
+        /// <para>程序集路径 - 包含此命令的DLL</para>
+        /// <para>Assembly path - DLL containing this command.</para>
         /// </summary>
         [JsonProperty("assemblyPath")]
         public string AssemblyPath { get; set; }
 
         /// <summary>
-        /// 是否启用该命令
+        /// <para>是否启用该命令</para>
+        /// <para>Enable this command.</para>
         /// </summary>
         [JsonProperty("enabled")]
         public bool Enabled { get; set; } = true;
 
         /// <summary>
-        /// 支持的Revit版本
+        /// <para>支持的Revit版本</para>
+        /// <para>Supported Revit versions.</para>
         /// </summary>
         [JsonProperty("supportedRevitVersions")]
         public string[] SupportedRevitVersions { get; set; } = new string[0];
 
         /// <summary>
-        /// 开发者信息
+        /// <para>开发者信息</para>
+        /// <para>Developer information.</para>
         /// </summary>
         [JsonProperty("developer")]
         public DeveloperInfo Developer { get; set; } = new DeveloperInfo();
 
         /// <summary>
-        /// 命令描述
+        /// <para>命令描述</para>
+        /// <para>Command description.</para>
         /// </summary>
         [JsonProperty("description")]
         public string Description { get; set; } = "";
