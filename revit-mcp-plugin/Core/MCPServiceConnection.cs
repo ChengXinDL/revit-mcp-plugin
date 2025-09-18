@@ -13,6 +13,7 @@ namespace revit_mcp_plugin.Core
             try
             {
                 // 获取socket服务
+                // Obtain socket service.
                 SocketService service = SocketService.Instance;
 
                 if (service.IsRunning)
