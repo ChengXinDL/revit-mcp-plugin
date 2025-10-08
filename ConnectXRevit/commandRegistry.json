@@ -1,0 +1,222 @@
+{
+  "Commands": [
+    {
+      "commandId": "3f77859c-9f89-4fe8-b483-54d5a2e53849",
+      "commandName": "create_point_based_element",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": ""
+    },
+    {
+      "commandId": "e7819eaa-76a5-4b0f-a0c4-4d410e19760d",
+      "commandName": "create_line_based_element",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": ""
+    },
+    {
+      "commandId": "2a11e753-cecd-4a9c-8958-e21aaaa4548a",
+      "commandName": "create_surface_based_element",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": ""
+    },
+    {
+      "commandId": "54555064-27c4-41b8-b2c3-4420f0056b91",
+      "commandName": "color_splash",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": ""
+    },
+    {
+      "commandId": "9329af86-fc0f-46e4-8266-7c7a731d2d9f",
+      "commandName": "tag_walls",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": ""
+    },
+    {
+      "commandId": "32a1aba6-d5cd-46d1-b883-76a207d260a3",
+      "commandName": "get_selected_elements",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": "get selected elements"
+    },
+    {
+      "commandId": "a78c3c47-7a2e-425f-909a-bbd7956de44d",
+      "commandName": "get_available_family_types",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": "get available family types"
+    },
+    {
+      "commandId": "fae1f14d-d322-4c38-9b7b-01ce6378dfb6",
+      "commandName": "get_current_view_elements",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": "get current view elements"
+    },
+    {
+      "commandId": "26dc7e0f-fa57-49b3-a6e0-ebb8297b1839",
+      "commandName": "get_current_view_info",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": "get current view info"
+    },
+    {
+      "commandId": "951bedf7-70f6-4792-a63d-c17bda68b1d7",
+      "commandName": "delete_element",
+      "assemblyPath": "CommandSet\\{VERSION}\\RevitMCPCommandSet.dll",
+      "enabled": true,
+      "supportedRevitVersions": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "developer": {
+        "name": "revit-mcp",
+        "email": "",
+        "website": "",
+        "organization": "revit-mcp"
+      },
+      "description": "Deletes elements using ElementId"
+    }
+  ],
+  "settings":
+  {
+    "logLevel": "Debug",
+    "port": 8082
+  },
+  "webAgentUrl": "localhost:8180",
+  "socketPort": 8082,
+  "autoRegister": false
+}

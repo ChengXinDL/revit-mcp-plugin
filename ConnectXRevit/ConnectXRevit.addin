@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>ConnectXRevit</Name>
+    <Assembly>ConnectXRevit\ConnectXRevit.dll</Assembly>
+    <FullClassName>ConnectXRevit.Core.RevitMcpApplication</FullClassName>
+    <ClientId>274238C1-8A87-4FA8-9D94-0E3451263E45</ClientId>
+    <VendorId>ConnectXRevit</VendorId>
+    <VendorDescription>https://github.com/chengxin_dl/revit-mcp</VendorDescription>
+  </AddIn>
+</RevitAddIns>
